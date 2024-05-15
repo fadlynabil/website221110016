@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gibran Coffee</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+    <!-- fonts links -->
+  </head>
+  <body>
+    <div class="all-content">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">kontak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs">Ulasan</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar -->
+
+      <!-- home section -->
+      <section id="home">
+        <div class="content">
+          <h3>
+            Mulailah Hari Anda Dengan, <br />
+            Mie Indomie
+          </h3>
+          <p>Dengan Semangkuk Mie Indomie <br />Mambuat Aktivitas Anda Menjadi Semangat</p>
+          <button id="btn" type="button" onclick="location.href='https://wa.link/78jqat'">Pesan Disini</button>
+        </div>
+      </section>
+
+      <!-- home section -->
+
+      <!-- about section -->
+      <div class="about" id="about">
+        <div class="container">
+          <div class="heading">Tentang <span>Kami</span></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img src="./images/about.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h3>Apa yang Membuat Mie Kami Istimewa?</h3>
+              <p>
+                "Mie kami memiliki sejumlah keistimewaan yang membuatnya berbeda dari yang lain. Pertama, teksturnya begitu menggoda dengan kekenyalan yang pas, tidak terlalu lembek namun tetap empuk saat digigit. Ini memberikan pengalaman
+                mengunyah yang memuaskan dan berbeda. <br /><br />Yang membuat mie kami benar-benar istimewa adalah topping dan pelengkapnya. Misalnya, kami menggunakan potongan daging sapi panggang yang lembut dan disiram dengan saus
+                spesial buatan kami yang menggugah selera. Telur rebus dengan kuning yang mengalir sempurna menjadi tambahan yang tidak bisa dilewatkan. Dan jangan lupakan taburan bawang goreng yang memberikan rasa gurih yang begitu menyatu
+                dengan mie kami. <br />
+              </p>
+              <button id="about-btn" type="button" onclick="location.href='https://wa.link/78jqat'">Selengkapnya.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about section -->
+
+      <!-- top cards -->
+      <section class="top-cards">
+        <div class="heading2">Top <span>Kategori</span></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- top cards -->
+
+      <!-- menu -->
+      <section class="menu" id="menu">
+        <div class="container">
+          <div class="heading3">Menu Makan</div>
+        </div>
+        <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m1.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Mie Goreng</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m2.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Soto Spesial</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m3.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Goreng Spicy</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m4.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Soto Lamongan</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 50px">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m5.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Ayam Bawang</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m6.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Rendang</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m7.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Ayam Spesial</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/m8.png" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Kari Ayam</h3>
+                  <p>
+                    Rp.10.000 <strike>Rp.15.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu -->
+
+      <!-- product -->
+      <section id="product" class="product">
+        <div class="container">
+          <div class="heading4">Menu Minuman</div>
+        </div>
+        <div class="container" id="container3">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/arabica coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Teh Tobrut</h3>
+                  <p>
+                    Rp.5.000 <strike>Rp.6.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Cappuccino coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Jeruk Tobrut</h3>
+                  <p>
+                    Rp.5.000 <strike>Rp.6.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Black Coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Kopi Tobrut</h3>
+                  <p>
+                    Rp.5.000 <strike>Rp.6.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Decaf caffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Soda Gembira</h3>
+                  <p>
+                    Rp.10.000 <strike>$Rp.12.000</strike> <span><i class="fa-solid fa-cart-shopping" type="button" onclick="location.href='https://wa.link/78jqat'"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- product -->
+
+      <!-- our gallary -->
+      <div class="container" id="gallary">
+        <h1>Galeri <span>Kami</span></h1>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image4.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image5.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our gallary -->
+
+      <!-- contact -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="heading6">Kontak<span>Kami</span></div>
+
+              <p>Bisa menghubungi kami <br />Isi data diri anda</p>
+
+              <input class="form-control" type="text" placeholder="Nama" aria-label="default input example" /><br />
+              <input class="form-control" type="email" placeholder="Email" aria-label="default input example" /><br />
+              <input class="form-control" type="number" placeholder="Nomor" aria-label="default input example" /><br />
+              <button id="contact-btn" type="button" onclick="location.href='https://wa.link/78jqat'">Kirim</button>
+            </div>
+            <div class="col-md-5" id="col">
+              <h1>Info</h1>
+              <p><i class="fa-regular fa-envelope"></i> Fadlygibran9@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +6288215212989</p>
+              <p><i class="fa-solid fa-building-columns"></i>Jangkang, Widodomartani, Ngemplak, Sleman, Yogyakarta</p>
+              <p>Jika mau menghubungi bisa lewat sosial kami di atas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+
+      <!-- blogs -->
+      <section class="blogs" id="blogs">
+        <h1>Ulasan <span>Kami</span></h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b1.png" alt="" />
+                <div class="card-body">
+                  <h3>Tobrut Jahat</h3>
+                  <h5>Pelanggan / 16 Mei 2024</h5>
+                  <p>"Mie di sini benar-benar istimewa! Teksturnya kenyal tapi tidak lembek, dengan rasa rempah yang menggugah selera. Topping daging sapi panggang dan telur rebusnya membuatnya tak terlupakan."</p>
+                  <button id="blogbtn">Selengkapnya.</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b2.png" alt="" />
+                <div class="card-body">
+                  <h3>Dhimas Pratama</h3>
+                  <h5>Pelanggan / 16 Mei 2024</h5>
+                  <p>"Mie dengan cita rasa yang autentik dan kaya rempah. Presentasinya menarik dengan taburan bawang goreng yang gurih. Kisah di balik resepnya juga membuat pengalaman makan lebih bermakna."</p>
+                  <button id="blogbtn">Selengkapnya.</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b3.png" alt="" />
+                <div class="card-body">
+                  <h3>Fadly Nabil Gibran</h3>
+                  <h5>Pelanggan / 16 Mei 2024</h5>
+                  <p>"Mie favorit saya sejauh ini! Rasa pedas yang tepat dan tekstur yang sempurna. Toppingnya melimpah dengan daging sapi panggang yang lembut dan telur rebus yang sempurna. Pasti akan kembali lagi!"</p>
+                  <button id="blogbtn">Selengkapnya.</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blogs -->
+
+      <!-- footer -->
+      <footer id="footer">
+        <div class="footer-logo text-center"><img src="./images/logo.png" alt="" /></div>
+        <div class="socail-links text-center">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="credite text-center">Designed By <a href="#"> Fadly Nabil Gibran</a></div>
+        <div class="copyright text-center">
+          &copy; Copyright <strong><span>Warmindo Tobrut</span></strong
+          >. All Rights Reserved
+        </div>
+      </footer>
+      <!-- footer -->
+
+      <a href="#" class="arrow"
+        ><i><img src="./images/up-arrow.png" alt="" width="50px" /></i
+      ></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
